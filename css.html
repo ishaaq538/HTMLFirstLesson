@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>practice</title>
+    <title>Flexbox</title>
 </head>
 <style>
+    .container {
+        display: flex;
+        
+    }
     body {
-        background-color: black;
+        background-color: white;
     }
     h1 {
-        color: white;
+        color: rgb(209, 37, 37);
         text-align: center;
     }
     p {
@@ -18,17 +22,16 @@
         font-size: 20px;
     }
     #para1 {
-        color: white;
+        color: rgb(197, 28, 28);
         text-align: center;
         font-size: 20px;
     }
     .box {
         width: 200px;
         height: 200px;
-        background-color: blue;
+        background-color: rgb(241, 241, 247);
         margin: 20px auto;
     }
-    
     .box2 {
         width: 200px;
         height: 200px;
@@ -40,4 +43,8 @@
     <h1>CSS Practice</h1>
     <p id="para1">Welcome to the CSS practice page! Here you can learn and experiment with different CSS styles.</p>
 </body>
+   <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box2">Box 2</div>
+    </div>
 </html>
